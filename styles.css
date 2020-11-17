@@ -197,3 +197,36 @@ transform: translate3d(0,0,0);
 }
 
 
+@media screen and (max-width: 375px) {
+
+     button {
+        font-size: 8px !important;
+    }
+    #slider label {
+        margin: auto;
+        width: 70%;
+        /* height: 200px; */
+        height: 100%;
+    }
+
+    header {
+        padding: 25% 2% 15%;
+        font-size: 12px;
+    }
+
+    .prof {
+        width: 100px;
+    }
+
+    .about {
+        line-height: 1.5;
+        margin: 50% 5% 5% 5%;
+        padding: 5%;
+        font-size: 14px;
+    }
+
+
+
+
+
+}

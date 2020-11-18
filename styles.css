@@ -110,8 +110,12 @@ button:hover {
     font-size: 22px;
 }
 
-header, .about {
+header {
     padding: 18%;
+}
+
+.about {
+    display: none;
 }
 
 [type=radio] {
@@ -123,6 +127,7 @@ header, .about {
     position: relative;
     perspective: 1000px;
     transform-style: preserve-3d;
+    margin-bottom: 10%;
 }
   
 #slider label {
@@ -131,7 +136,8 @@ header, .about {
     height: 100%;
     border-radius: 4px;
     position: absolute;
-    left: 0; right: 0;
+    left: 0; 
+    right: 0;
     cursor: pointer;
     transition: transform 0.2s ease;
 }
@@ -192,8 +198,12 @@ transform: translate3d(0,0,0);
 }
 
 #slide5 { 
-    background: url(https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) no-repeat center; 
+    background-color: #fff;
     background-size: 100% 100%;
+}
+
+#slide5 > h2 {
+    padding: 40px;
 }
 
 
@@ -205,28 +215,37 @@ transform: translate3d(0,0,0);
     #slider label {
         margin: auto;
         width: 70%;
-        /* height: 200px; */
         height: 100%;
     }
 
     header {
-        padding: 25% 2% 15%;
-        font-size: 12px;
+        padding: 25% 15%;
+        font-size: 10px;
     }
 
     .prof {
         width: 100px;
     }
 
-    .about {
-        line-height: 1.5;
-        margin: 50% 5% 5% 5%;
-        padding: 5%;
-        font-size: 14px;
+    .about  {
+        display: contents;
     }
 
+    .about h2 {
+        margin-top: 20%;
+    }
 
+    .about p {
+        line-height: 1.5;
+        font-size: 14px;
+        padding-bottom: 10%;
+    }
+    
+    #slide5 { 
+        display: none;
+    }
 
-
-
+    ul {
+        padding-inline-start: 20px;
+    }
 }

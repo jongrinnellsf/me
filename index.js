@@ -10,4 +10,12 @@ function smoothScroll() {
     });
 }
 
+
+
+// setInterval(function() { 
+//     $('input').prop('checked', true);
+//     // $("input").attr("checked").next();
+// },  3000);
+
+
 $(smoothScroll)
